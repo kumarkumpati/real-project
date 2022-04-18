@@ -1,0 +1,18 @@
+<profile>
+      <repositories>
+        <repository>
+          <id>plt-release</id>
+          <name>my-release</name>
+          <url>http://<ip>:<port>/artifactory/release-local</url>
+        </repository>
+        <repository>
+          <snapshots/>
+          <id>plt-snapshot</id>
+          <name>my-snapshot</name>
+          <url>http://<ip>:<port>/artifactory/snapshot-local</url>
+        </repository>
+      </repositories>
+      <id>artifactory</id>
+    </profile>
+
+  </profiles>
